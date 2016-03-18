@@ -1,7 +1,16 @@
 body {
     background-color: LightGray;
 }
+
 div {
-    border: 1px solid Chocolate;
-    
+    border: 1px solid Chocolate;    
+}
+
+ul {
+  list-style-type: none;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
 }
