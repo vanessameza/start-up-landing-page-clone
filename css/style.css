@@ -13,7 +13,6 @@ html, h1, h2{
 }
 
 body {
-    background-color: LightGray;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
@@ -99,28 +98,62 @@ ul.links-inline li:hover {
     background-size: cover;
     overflow: auto;
 }
-
-.first-section-content {
-	margin: 15% auto;
-	width: 50%;
-	color: white;
-	text-align: center;
+.first-section .content {
+	margin:20% auto;
 }
 
-.first-section-content h1 {
-	margin-top: 17.5rem;
+.first-section  h1 {
+	margin-top: 5.5rem;
     font-size: 3.125rem;
 
 }
-.first-section-content h2 {
+.first-section h2 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
 
-.first-section-content h1, h2 {
-		color: white;
+.first-section h1, h2 {
+	color: white;
     text-align: center;
     font-weight: 300;
+}
+.content {
+	margin: 5% auto;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.three-icon-section h1 { 
+	color:black;
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.three-icon-section ul {
+	width:60%;
+	text-align: center;
+	list-style-type: none;
+	clear:both;
+	display: inline-block;
+	margin: 0 auto;
+}
+.three-icon-section .content ul li {
+	float:left;
+	display: inline;
+	width: 33.3333333%;
+}
+.content-icons{
+	max-height: 127px;
+	max-width: 127px;
+}
+
+.caption h2 {
+	color: black;
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+
 }
 
 
