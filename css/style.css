@@ -1,5 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 nav {
@@ -7,6 +16,7 @@ nav {
 	background-color: blue; 
 	display: inline-block;
 }
+
 .nav-container{
 	width: 60%;
 	height: 4.375rem;
@@ -26,19 +36,31 @@ nav {
 
 .nav-links{
 	float: right;
-	background-color:#20CAFF;
-}
-div {
-    border: 1px solid Chocolate;    
+	/*background-color:#20CAFF;*/
 }
 
-ul {
+.links-inline{
   list-style-type: none;
 }
-li {
+
+ul.links-inline li {
 	display: inline;
 	padding: 0 10px;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
+
+ul.links-inline li.active {
+    color: black;
+    font-weight: 500;
+}
+
+ul.links-inline li:hover {
+	cursor: pointer;
+    color: #333333;
+}
+
 #logo {
   width: 100px;
   height: 100px;
